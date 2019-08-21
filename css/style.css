@@ -63,7 +63,7 @@ header.site-header {
 }
 
 section#facts {
-    background-image: url('/img/parallax.jpg');
+    background-image: url('../img/parallax.jpg');
     color: #ddd;
 }
 
@@ -80,7 +80,7 @@ section#facts {
 }
 
 nav#mainNav, footer#footer{
-    background-image: url('/img/header.jpg');
+    background-image: url('../img/header.jpg');
 }
 
 .divider::before, .divider::after{
