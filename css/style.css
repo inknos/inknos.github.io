@@ -34,17 +34,16 @@ header.site-header {
 }
 
 .static-title-header {
-    font-size: 4em;
-    padding-bottom:3em;
+    font-size: 3em;
+    padding-bottom: 3.4em;
 }
 
-.carousel-title-header {
-    color: red;
+.carousel-title {
+    padding-top: 5.4em;
 }
+.carousel-title-header {}
 
-.carousel-subtitle-header {
-    color: green;
-}
+.carousel-subtitle-header {}
 
 .feature-icon {
     border: 1px solid black;
