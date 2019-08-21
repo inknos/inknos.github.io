@@ -1,6 +1,8 @@
 html, body {
     font-family: DejaVu Mono, Monospace;
     overflow-x: hidden;
+    background-color: #fdfdfd;
+    color: #212529;
 }
 
 .fullscreen-height {
@@ -86,4 +88,12 @@ nav#mainNav, footer#footer{
     content: "_________";
     position: relative;
     bottom: 6px;
+}
+
+a {
+    color: #ffc107;
+}
+
+.carousel-indicators li.active{
+    background-color: #ffc107;
 }
