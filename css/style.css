@@ -84,7 +84,7 @@ nav#mainNav, footer#footer{
 }
 
 .divider::before, .divider::after{
-    content: "______________________";
+    content: "_________";
     position: relative;
     bottom: 6px;
 }

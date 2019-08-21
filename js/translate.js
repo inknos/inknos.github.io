@@ -7,7 +7,7 @@ $(document).ready(function(){
             ns: ['translation', 'debug'],
             defaultNS: 'debug',
             backend: {
-                loadPath: '/locales/{{lng}}/{{ns}}.json',
+                loadPath: 'locales/{{lng}}/{{ns}}.json',
                 crossDomain: true
             }
         }, function(err, t) {
