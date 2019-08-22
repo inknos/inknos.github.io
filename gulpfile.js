@@ -59,7 +59,7 @@ function modules() {
     // jQuery countTo
     var countto = gulp.src('./node_modules/jquery-countto/*.js')
         .pipe(gulp.dest('./vendor/jquery-countto'));
-    var forkawesome = gulp.src('./node_modules/fork-awesome/css/*.css')
+    var forkawesome = gulp.src('./node_modules/fork-awesome/**/*')
         .pipe(gulp.dest('./vendor/fork-awesome'));
     return merge(
         bootstrap,
