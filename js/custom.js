@@ -5,6 +5,7 @@ $(document).ready( function() {
 	  /* ========================================================================= */
     $('#mainNav').parallax("50%", 0.1);
     $('#facts').parallax("50%", 0.7);
+    $('#projects').parallax("50%", 0.7);
     $('#footer').parallax("50%", 0.1);
 
 });

@@ -155,7 +155,7 @@
                 </div>
             </div>
         </section>
-        <section id="projects">
+        <section id="projects" class="black-section">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 mx-auto">
@@ -165,7 +165,96 @@
                                 <i class="fa fa-git fa-lg" aria-hidden="true"></i>
                             </div>
                         </div>
-                        <p class="lead">This is my personal portfolio. this page was written entirely by myself, with free software libraries or open source libraries. </p>
+                        <div class="category-filter">
+                            <ul class="text-center">
+                                <li><a class="filter active" data-filter=".filter-li">All</a></li>
+                                <li><a class="filter" data-filter=".physics">Physics</a></li>
+                                <li><a class="filter" data-filter=".linux">Linux</a></li>
+                                <li><a class="filter" data-filter=".web">Web</a></li>
+                                <li><a class="filter" data-filter=".misc">Misc</a></li>
+                            </ul>
+                        </div>
+                        <div class="category-list row text-center">
+                            <div class="col-md-4 col-sm-6  col-xs-12 filter-li physics">
+                                <div class="filter-li-desc">
+                                    <h1>Title</h1>
+                                    <h3>physics</h3>
+                                </div>
+                                <div class="filter-li-icon icon-border-lg">
+                                    <i class="fa fa-git fa-lg" aria-hidden="true"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12 filter-li web physics">
+                                <div class="filter-li-desc">
+                                    <h1>Title</h1>
+                                    <h3>physics</h3>
+                                </div>
+                                <div class="filter-li-icon icon-border-lg">
+                                    <i class="fa fa-git fa-lg" aria-hidden="true"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12 filter-li linux misc physics">
+                                <div class="filter-li-desc">
+                                    <h1>Title</h1>
+                                    <h3>physics</h3>
+                                </div>
+                                <div class="filter-li-icon icon-border-lg">
+                                    <i class="fa fa-git fa-lg" aria-hidden="true"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12 filter-li physics">
+                                <div class="filter-li-desc">
+                                    <h1>Title</h1>
+                                    <h3>physics</h3>
+                                </div>
+                                <div class="filter-li-icon icon-border-lg">
+                                    <i class="fa fa-git fa-lg" aria-hidden="true"></i>
+                                </div>
+                            </div>
+
+                            <div class="col-md-4 col-sm-6 col-xs-12 filter-li physics misc">
+                                <div class="filter-li-desc">
+                                    <h1>Title</h1>
+                                    <h3>physics</h3>
+                                </div>
+                                <div class="filter-li-icon icon-border-lg">
+                                    <i class="fa fa-git fa-lg" aria-hidden="true"></i>
+                                </div>
+                            </div>
+
+                        </div>
+                        <script>
+                         $(function () {
+                             var parent = $(".category-list ul");
+                             var divs = parent.children();
+                             while (divs.length) {
+                                 parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+                             }
+                         });
+                         $('.filter').click(function() {
+                             $( ".filter" ).removeClass("active");
+                             $( this ).addClass("active");
+                             var dataFilter = $(this).data('filter');
+                             var animation_params = {
+                                 duration: 500,
+                             };
+                             $( '.filter-li:not('+ dataFilter +')' ).hide(animation_params);
+                             $( dataFilter+":hidden" ).show(animation_params);
+                         });
+                         /*
+                         $(document).ready(function() {
+                             $(".filter").click(function () {
+                                 var classfilter = $( ".filter" ).data("filter");
+                                 console.log(classfilter);
+                                 $( ".physics" ).toggle({
+                                     duration: 500,
+                                 });
+                             });
+                         });*/
+                        </script>
                     </div>
                 </div>
             </div>
