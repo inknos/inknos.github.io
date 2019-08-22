@@ -29,24 +29,24 @@
     },
     "sec" : {
         "features": {
-            "title": "SEC_FEATURES_TITLE_EN",
-            "subtitle": "SEC_FEATURES_SUBTITLE_EN",
+            "title": "SEC FEATURES TITLE_EN",
+            "subtitle": "SEC FEATURES SUBTITLE_EN",
             "icon": "fa fa-gears fa-lg",
             "description": "SEC_FEATURES_DESCRIPTION_EN",
             "list": {
                 "1": {
-                    "title": "SEC_FEATURES_LIST_1_TITLE_EN",
-                    "subtitle": "SEC_FEATURES_LIST_1_SUBTITLE_EN",
+                    "title": "SEC FEATURES LIST 1_TITLE_EN",
+                    "subtitle": "SEC FEATURES LIST 1_SUBTITLE_EN",
                     "icon": "fa fa-database fa-2x"
                 },
                 "2": {
-                    "title": "SEC_FEATURES_LIST_2_TITLE_EN",
-                    "subtitle": "SEC_FEATURES_LIST_2_SUBTITLE_EN",
+                    "title": "SEC FEATURES LIST 2_TITLE_EN",
+                    "subtitle": "SEC FEATURES LIST 2_SUBTITLE_EN",
                     "icon": "fa fa-database fa-2x"
                 },
                 "3": {
-                    "title": "SEC_FEATURES_LIST_3_TITLE_EN",
-                    "subtitle": "SEC_FEATURES_LIST_3_SUBTITLE_EN",
+                    "title": "SEC FEATURES LIST 3_TITLE_EN",
+                    "subtitle": "SEC FEATURES LIST 3_SUBTITLE_EN",
                     "icon": "fa fa-database fa-2x"
                 }
             }

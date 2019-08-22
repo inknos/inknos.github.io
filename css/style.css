@@ -1,8 +1,22 @@
+/*
+ *
+ *    Debug CSS
+ *
+ */
+/*
+* {
+    background: #000 !important;
+    color: #0f0 !important;
+    outline: solid #f00 1px !important;
+}
+*/
+
 html, body {
     font-family: DejaVu Mono, Monospace;
-    overflow-x: hidden;
     background-color: #fdfdfd;
     color: #212529;
+    width: 100%;
+    overflow-x: hidden;
 }
 
 ::selection {
