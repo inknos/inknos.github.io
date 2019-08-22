@@ -17,10 +17,6 @@ html, body {
     color: #212529;
 }
 
-.all-content{
-    overflow-x: hidden;
-}
-
 ::selection {
     background: #ffc107; /* WebKit/Blink Browsers */
     color: #212529;
