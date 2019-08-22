@@ -13,17 +13,12 @@ $(document).ready( function() {
 
 
 $( window ).on( "load", function() {
+
+
     /* ========================================================================= */
-	  /*	Timer count
+	  /*	Filter Projects
 	      /* ========================================================================= */
-    $('.timer').countTo();
-    $(function () {
-        var parent = $(".category-list ul");
-        var divs = parent.children();
-        while (divs.length) {
-            parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
-        }
-    });
+
     $('.filter').click(function() {
         $( ".filter" ).removeClass("active");
         $( this ).addClass("active");
@@ -38,5 +33,42 @@ $( window ).on( "load", function() {
         setTimeout(function(){
             $( dataFilter+":hidden" ).slideDown();
         },600);
+    });
+    /* ========================================================================= */
+	  /*	Email Hide
+	      /* ========================================================================= */
+    $('.linkmail').hover(function(){
+        // here you can use whatever replace you want
+        console.log($(this).data('email'));
+        var newHref = $(this).attr('href')
+            .replace('example.spam', $(this).data('email'));
+        $(this).attr('href', newHref);
+    });
+
+    /* ========================================================================= */
+	  /*	Download PGP Key
+	      /* ========================================================================= */
+    $('a#download-key').click(function(e) {
+        e.preventDefault();  //stop the browser from following
+        window.location.href = 'misc/nicola-sella.asc';
+    });
+
+    /* ========================================================================= */
+	  /*	View PGP Key
+	      /* ========================================================================= */
+    $( 'a#view-key' ).click( function() {
+        $( 'code.pubkey' ).slideToggle();
+    });
+
+    /* ========================================================================= */
+	  /*	Timer count
+	      /* ========================================================================= */
+    $('.timer').countTo();
+    $(function () {
+        var parent = $(".category-list ul");
+        var divs = parent.children();
+        while (divs.length) {
+            parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+        }
     });
 });

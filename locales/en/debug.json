@@ -1,6 +1,7 @@
 {
     "lang": "en_US",
     "title": "TITLE_EN",
+    "copy": "Copyright &copy; inknos, Nicola Sella 2019",
     "nav": {
         "features": "NAV_FEATURES_EN",
         "projects": "NAV_PROJECTS_EN",
@@ -63,8 +64,39 @@
         "facts": {
             "title": "SEC_FACTS_TITLE_EN",
             "subtitle": "SEC_FACTS_SUBTITLE_EN",
-            "icon": "fa fa-line-chart fa-lg",
-            "description": "SEC_FACTS_DESCRIPTION_EN"},
+            "icon": "fa fa-pie-chart fa-lg",
+            "description": "SEC_FACTS_DESCRIPTION_EN",
+            "list": {
+                "1": {
+                    "icon": "fa fa-book fa-3x",
+                    "title" : "Hours spent studying",
+                    "description": "",
+                    "from": 1,
+                    "to": 100
+                },
+                "2": {
+                    "icon": "fa fa-code fa-3x",
+                    "title" : "Lines of codes written",
+                    "description": "",
+                    "from": "1",
+                    "to": "1540293"
+                },
+                "3": {
+                    "icon": "fa fa-comments-o fa-3x",
+                    "title" : "Questions on stackoverflow",
+                    "description": "",
+                    "from": "1",
+                    "to": "1000"
+                },
+                "4": {
+                    "icon": "fa fa-gnupg fa-3x",
+                    "title" : "Hours spent encrypting stuff",
+                    "description": "",
+                    "from": "1",
+                    "to": "1000"
+                }
+            }
+        },
         "about": {
             "title": "SEC_ABOUT_TITLE_EN",
             "subtitle": "SEC_ABOUT_SUBTITLE_EN",
@@ -74,8 +106,52 @@
             "title": "SEC_CONTACT_TITLE_EN",
             "subtitle": "SEC_CONTACT_SUBTITLE_EN",
             "icon": "fa fa-envelope-o fa-lg",
-            "description": "SEC_CONTACT_DESCRIPTION_EN"}
-    },
-    "footer": {}
-
+            "description": "SEC_CONTACT_DESCRIPTION_EN",
+            "table": {
+                "head": {
+                    "icon": "fa fa-globe fa-lg",
+                    "user": "SEC_CONTENT_TABLE_HEAD_USER_EN",
+                    "description": "SEC_CONTENT_TABLE_HEAD_DESCRIPTION_EN"
+                },
+                "mail-outlook": {
+                    "icon": "fa fa-envelope fa-lg",
+                    "user": "ti.kooltuo@alles.alocin",
+                    "description": "Outlook Mail",
+                    "href": "mailto:nicola.sella@example.spam",
+                    "email": "outlook.it"
+                },
+                "mail-disroot": {
+                    "icon": "fa fa-envelope fa-lg",
+                    "user": "gro.toorsid@alles.alocin",
+                    "description": "Disroot Mail",
+                    "href": "mailto:nicola.sella@example.spam",
+                    "email": "disroot.org"
+                },
+                "github": {
+                    "icon": "fa fa-github fa-lg",
+                    "user": "sonkni",
+                    "description": "Github Main Account",
+                    "href": "https://github.com/inknos"
+                },
+                "mastodon": {
+                    "icon": "fa fa-mastodon fa-lg",
+                    "user": "gro.nodotssof@sonkni@",
+                    "description": "Mastodon Account",
+                    "href": "https://fosstodon.org/@inkos"
+                },
+                "telegram": {
+                    "icon": "fa fa-telegram fa-lg",
+                    "user": "sonkni",
+                    "description": "My Telegram Account",
+                    "href": "javascript:;"
+                },
+                "xmpp-disroot": {
+                    "icon": "fa fa-xmpp fa-lg",
+                    "user": "gro.toorsid@alles.alocin",
+                    "description": "XMPP Jabber on disroot",
+                    "href": "javascript:;"
+                }
+            }
+        }
+    }
 }

@@ -5,6 +5,24 @@ html, body {
     color: #212529;
 }
 
+::selection {
+    background: #ffc107; /* WebKit/Blink Browsers */
+    color: #212529;
+}
+::-moz-selection {
+    background: #ffc107; /* Gecko Browsers */
+    color: #2125259;
+}
+
+a {
+    color: #ffc107;
+}
+
+.black-section a:hover, a:active {
+    color: #ffc107;
+}
+
+
 .fullscreen-height {
     height: 100vh;
 }
@@ -161,6 +179,10 @@ a {
     margin: 0 auto;
 }
 
+.icon-border-2x {}
+
+.icon-border-3x {}
+
 .black-section .table {
     color: #ddd;
 }
@@ -190,3 +212,11 @@ a {
     unicode-bidi: bidi-override;
     direction: rtl;
 }
+
+.pubkey {
+    display: none;
+}
+code {
+    color: #ffc107;
+    background-color: #121212;
+    white-space: pre; }
