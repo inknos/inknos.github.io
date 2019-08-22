@@ -15,9 +15,10 @@ html, body {
     font-family: DejaVu Mono, Monospace;
     background-color: #fdfdfd;
     color: #212529;
-    width: 100%;
+}
+
+.all-content{
     overflow-x: hidden;
-    position: fixed;
 }
 
 ::selection {
