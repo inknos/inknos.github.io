@@ -17,6 +17,7 @@ html, body {
     color: #212529;
     width: 100%;
     overflow-x: hidden;
+    position: fixed;
 }
 
 ::selection {
@@ -222,7 +223,7 @@ a {
     font-weight: bold;
 }
 
-.linkmail{
+.linkmail, .reverse {
     unicode-bidi: bidi-override;
     direction: rtl;
 }

@@ -39,7 +39,6 @@ $( window ).on( "load", function() {
 	      /* ========================================================================= */
     $('.linkmail').hover(function(){
         // here you can use whatever replace you want
-        console.log($(this).data('email'));
         var newHref = $(this).attr('href')
             .replace('example.spam', $(this).data('email'));
         $(this).attr('href', newHref);
@@ -70,5 +69,18 @@ $( window ).on( "load", function() {
         while (divs.length) {
             parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
         }
+    });
+
+
+    $('.clickable-row').hover(function(){
+        // here you can use whatever replace you want
+        if( $(this).data('href') == "javascript:;" ) return false;
+        var newHref = $(this).data('href')
+            .replace('example.spam', $(this).data('email'));
+        $(this).data('href', newHref);
+    });
+    $(".clickable-row").click(function() {
+        if( $(this).data('href') == "javascript:;" ) return false;
+        window.open($(this).data("href"), '_blank');
     });
 });

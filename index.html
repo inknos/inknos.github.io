@@ -363,36 +363,61 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <tr>
-                                <td><i class="fa fa-envelope fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.mail-outlook.icon"></td>
-                                    <td><a href="mailto:nicola.sella@example.spam" data-mail="outlook.it" class="linkmail" data-i18n="[href]sec.contact.table.mail-outlook.href;[data-email]sec.contact.table.mail-outlook.email;sec.contact.table.mail-outlook.user">ti.kooltuo@alles.alocin</a></td>
-                                    <td data-i18n="sec.contact.table.mail-outlook.description"></td>
+
+                            <tr class="clickable-row" data-href="mailto:nicola.sella@example.spam" data-mail="outlook.it" data-i18n="[data-href]sec.contact.table.mail-outlook.href;[data-email]sec.contact.table.mail-outlook.email">
+                                <td>
+                                    <i class="fa fa-envelope fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.mail-outlook.icon">
+                                </td>
+                                <td class="reverse" data-i18n="sec.contact.table.mail-outlook.user">ti.kooltuo@alles.alocin</td>
+                                <td data-i18n="sec.contact.table.mail-outlook.description">
+                                </td>
                             </tr>
-                            <tr>
-                                <td><i class="fa fa-envelope fa-lg" aria-hidden="true" data-i18n="[class]src.contact.table.mail-disroot.icon"></td>
-                                    <td><a href="mailto:nicola.sella@example.spam" data-email="disroot.org" class="linkmail" data-i18n="[href]src.contact.table.mail-disroot.href;[data-email]sec.contact.table.mail-disroot.email;sec.contact.table.mail-disroot.user">gro.toorsid@alles.alocin</a></td>
-                                    <td data-i18n="sec.contact.table.mail-disroot.description"></td>
+
+                            <tr class="clickable-row" data-href="mailto:nicola.sella@example.spam" data-emai="disroot.org" data-i18n="[data-href]sec.contact.table.mail-disroot.href;[data-email]sec.contact.table.mail-disroot.email">
+                                <td>
+                                    <i class="fa fa-envelope fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.mail-disroot.icon">
+                                </td>
+                                <td class="reverse" data-i18n="sec.contact.table.mail-disroot.user">gro.toorsid@alles.alocin</td>
+                                <td data-i18n="sec.contact.table.mail-disroot.description">
+                                </td>
                             </tr>
-                            <tr>
-                                <td><i class="fa fa-github fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.github.icon"></td>
-                                <td><a href="https://github.com/inknos" class="linkmail" data-i18n="[href]sec.contact.table.github.href;sec.contact.table.github.user">sonkni</a></td>
-                                <td data-i18n="sec.contact.table.github.description"></td>
+
+                            <tr class="clickable-row" data-href="https://github.com/inknos" data-i18n="[data-href]sec.contact.table.github.href">
+                                <td>
+                                    <i class="fa fa-github fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.github.icon">
+                                </td>
+                                <td class="reverse" data-i18n="sec.contact.table.github.user">sonkni</td>
+                                <td data-i18n="sec.contact.table.github.description">
+                                </td>
                             </tr>
-                            <tr>
-                                <td><i class="fa fa-mastodon fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.mastodon.icon"></td>
-                                    <td><a href="https://fosstodon.org/@inknos" class="linkmail" data-i18n="[href]sec.contact.table.mastodon.href;sec.contact.table.mastodon.user">gro.nodotssof@sonkni@</a></td>
-                                <td data-i18n="sec.contact.table.mastodon.description"></td>
+
+                            <tr class="clickable-row" data-href="https://fosstodon.org/@inknos" data-i18n="[data-href]sec.contact.table.mastodon.href">
+                                <td>
+                                    <i class="fa fa-mastodon fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.mastodon.icon">
+                                </td>
+                                <td class="reverse" data-i18n="sec.contact.table.mastodon.user">gro.nodotssof@sonkni@</td>
+                                <td data-i18n="sec.contact.table.mastodon.description">
+                                </td>
                             </tr>
-                            <tr>
-                                <td><i class="fa fa-telegram fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.telegram.icon"></td>
-                                    <td><a href="javascript:;" class="linkmail" data-i18n="[href]src.contact.table.telegram.href;src.contact.table.telegram.user">sonkni</a></td>
-                                    <td data-i18n="sec.contact.table.telegram.description"></td>
+
+                            <tr class="clickable-row" data-href="javascript:;" data-i18n="[data-href]sec.contact.table.telegram.href">
+                                <td>
+                                    <i class="fa fa-telegram fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.telegram.icon">
+                                </td>
+                                <td class="reverse" data-i18n="sec.contact.table.telegram.user">sonkni</td>
+                                <td data-i18n="sec.contact.table.telegram.description">
+                                </td>
                             </tr>
-                            <tr>
-                                <td><i class="fa fa-xmpp fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.xmpp-disroot.icon"></td>
-                                    <td><a href="javascript:;" class="linkmail" data-i18n="[href]sec.contact.table.xmpp-disroot.href;sec.contact.table.xmpp-disroot.user">gro.toorsid@alles.alocin</a></td>
-                                    <td data-i18n="sec.contact.table.xmpp-disroot.description"></td>
+
+                            <tr class="clickable-row" data-href="javascript:;" data-i18n="[data-href]sec.contact.table.xmpp-disroot.href">
+                                <td>
+                                    <i class="fa fa-xmpp fa-lg" aria-hidden="true" data-i18n="[class]sec.contact.table.xmpp-disroot.icon">
+                                </td>
+                                <td class="reverse" data-i18n="sec.contact.table.xmpp-disroot.user">gro.toorsid@alles.alocin</td>
+                                <td data-i18n="sec.contact.table.xmpp-disroot.description">
+                                </td>
                             </tr>
+
                        </tbody>
                     </table>
                 </div>
