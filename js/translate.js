@@ -28,7 +28,7 @@ function updateContent(){
         parseDefaultValueFromContent: true // parses default values from content ele.val or ele.text
     });
     // start localizing, details:
-    $('.nav').localize();
+    $('body').localize();
     // https://github.com/i18next/jquery-i18next#usage-of-selector-function
 }
 

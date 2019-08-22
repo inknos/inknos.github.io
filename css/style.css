@@ -18,11 +18,16 @@ html, body {
     height: 100%
 }
 
+.carousel-item{
+    position: relative;
+}
+
 div.carousel-item img {
     width: 100%;
-    height: 100%;
     object-fit: cover;
     overflow: hidden;
+    position: absolute;
+    bottom: 0;
 }
 
 header.site-header {
@@ -104,6 +109,7 @@ a {
 }
 
 
+
 .category-filter ul {
     list-style: none;
     padding: 0;
@@ -123,12 +129,28 @@ a {
 }
 
 .filter-li {
-    height: 10em;
-    background-color: #333;
+    width: 100%;
 }
+
+.filter-li{
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    background-clip:content-box;
+    border-bottom: 1px solid #ddd;
+}
+
 .filter-li:hover{
     background-color: #ffc107;
     color: #212559;
+}
+
+.filter-li-desc {
+    display:inline-block;
+    padding: 1em 0;
+}
+.filter-li-icon {
+    display: inline-block;
+    float: left;
 }
 
 .icon-border-lg {
@@ -137,4 +159,34 @@ a {
     width: 2.5em;
     padding: 0.4em 0.4em;
     margin: 0 auto;
+}
+
+.black-section .table {
+    color: #ddd;
+}
+
+.black-section .table th {
+    color: #ffc107;
+}
+
+.black-section .table tbody tr:hover{
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.black-section .table tbody tr:hover a{
+    background-color: #ffc107;
+    color: #212529;
+}
+
+.black-section .table tbody tr:hover a:hover, .black-section .table tbody tr:hover a:active{
+    background-color: #ffc107;
+    color: #ddd;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.linkmail{
+    unicode-bidi: bidi-override;
+    direction: rtl;
 }

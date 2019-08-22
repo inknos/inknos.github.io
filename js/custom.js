@@ -17,4 +17,26 @@ $( window ).on( "load", function() {
 	  /*	Timer count
 	      /* ========================================================================= */
     $('.timer').countTo();
+    $(function () {
+        var parent = $(".category-list ul");
+        var divs = parent.children();
+        while (divs.length) {
+            parent.append(divs.splice(Math.floor(Math.random() * divs.length), 1)[0]);
+        }
+    });
+    $('.filter').click(function() {
+        $( ".filter" ).removeClass("active");
+        $( this ).addClass("active");
+        var dataFilter = $(this).data('filter');
+        var animation_params = {
+            duration: 500,
+            specialEasing: {
+                width: "linear",
+            },
+        };
+        $( '.filter-li:not('+ dataFilter +')' ).slideUp();
+        setTimeout(function(){
+            $( dataFilter+":hidden" ).slideDown();
+        },600);
+    });
 });

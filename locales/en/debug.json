@@ -1,7 +1,81 @@
 {
+    "lang": "en_US",
+    "title": "TITLE_EN",
     "nav": {
-        "about": "ABOUT_EN",
-        "projects": "PROJECTS_EN",
-        "contact": "CONTACT_EN"
-    }
+        "features": "NAV_FEATURES_EN",
+        "projects": "NAV_PROJECTS_EN",
+        "myself": "NAV_MYSELF_EN",
+        "facts": "NAV_FACTS_EN",
+        "about": "NAV_ABOUT_EN",
+        "contact": "NAV_CONTACT_EN"
+    },
+    "carousel": {
+        "title": "CAROUSEL_TITLE_EN",
+        "slide": {
+            "1": {
+                "title": "CAROUSEL_SLIDE_1_TITLE_EN",
+                "subtitle": "CAROUSEL_SLIDE_1_SUBTITLE_EN"
+            },
+            "2": {
+                "title": "CAROUSEL_SLIDE_1_TITLE_EN",
+                "subtitle": "CAROUSEL_SLIDE_1_SUBTITLE_EN"
+            },
+            "3": {
+                "title": "CAROUSEL_SLIDE_1_TITLE_EN",
+                "subtitle": "CAROUSEL_SLIDE_1_SUBTITLE_EN"
+            }
+        }
+    },
+    "sec" : {
+        "features": {
+            "title": "SEC_FEATURES_TITLE_EN",
+            "subtitle": "SEC_FEATURES_SUBTITLE_EN",
+            "icon": "fa fa-gears fa-lg",
+            "description": "SEC_FEATURES_DESCRIPTION_EN",
+            "list": {
+                "1": {
+                    "title": "SEC_FEATURES_LIST_1_TITLE_EN",
+                    "subtitle": "SEC_FEATURES_LIST_1_SUBTITLE_EN",
+                    "icon": "fa fa-database fa-2x"
+                },
+                "2": {
+                    "title": "SEC_FEATURES_LIST_2_TITLE_EN",
+                    "subtitle": "SEC_FEATURES_LIST_2_SUBTITLE_EN",
+                    "icon": "fa fa-database fa-2x"
+                },
+                "3": {
+                    "title": "SEC_FEATURES_LIST_3_TITLE_EN",
+                    "subtitle": "SEC_FEATURES_LIST_3_SUBTITLE_EN",
+                    "icon": "fa fa-database fa-2x"
+                }
+            }
+        },
+        "projects": {
+            "title": "SEC_PROJECTS_TITLE_EN",
+            "subtitle": "SEC_PROJECTS_SUBTITLE_EN",
+            "icon": "fa fa-server fa-lg",
+            "description": "SEC_PROJECTS_DESCRIPTION_EN"},
+        "myself": {
+            "title": "SEC_MYSELF_TITLE_EN",
+            "subtitle": "SEC_MYSELF_SUBTITLE_EN",
+            "icon": "fa fa-compass fa-lg",
+            "description": "This is my personal portfolio. this page was written entirely by myself, with free software libraries or open source libraries. "},
+        "facts": {
+            "title": "SEC_FACTS_TITLE_EN",
+            "subtitle": "SEC_FACTS_SUBTITLE_EN",
+            "icon": "fa fa-line-chart fa-lg",
+            "description": "SEC_FACTS_DESCRIPTION_EN"},
+        "about": {
+            "title": "SEC_ABOUT_TITLE_EN",
+            "subtitle": "SEC_ABOUT_SUBTITLE_EN",
+            "icon": "fa fa-rocket fa-lg",
+            "description": "SEC_ABOUT_DESCRIPTION_EN"},
+        "contact": {
+            "title": "SEC_CONTACT_TITLE_EN",
+            "subtitle": "SEC_CONTACT_SUBTITLE_EN",
+            "icon": "fa fa-envelope-o fa-lg",
+            "description": "SEC_CONTACT_DESCRIPTION_EN"}
+    },
+    "footer": {}
+
 }
