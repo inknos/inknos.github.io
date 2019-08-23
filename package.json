@@ -1,9 +1,11 @@
 {
+  "title": "template for inknos portfolio",
   "name": "inknos.github.io",
   "version": "0.0.0",
   "description": "My personal landing page",
   "main": "index.js",
   "scripts": {
+    "start": "node_modules/.bin/gulp watch",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Nicola Sella",

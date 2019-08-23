@@ -5,7 +5,7 @@ $(document).ready(function(){
             fallbackLng: 'en',
             debug: true,
             ns: ['translation', 'debug'],
-            defaultNS: 'debug',
+            defaultNS: 'translation',
             backend: {
                 loadPath: 'locales/{{lng}}/{{ns}}.json',
                 crossDomain: true

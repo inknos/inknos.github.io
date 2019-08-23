@@ -1,7 +1,163 @@
 {
+    "lang": "en_US",
+    "title": "TITLE_EN",
+    "copy": "Copyright &copy; inknos, Nicola Sella 2019",
     "nav": {
-        "about": "ABOUT_EN",
-        "projects": "PROJECTS_EN",
-        "contact": "CONTACT_EN"
+        "features": "~/features",
+        "projects": "~/projects",
+        "myself": "~/about --me",
+        "facts": "~/facts",
+        "about": "~/about --this-site",
+        "contact": "~/contact"
+    },
+    "carousel": {
+        "title": "Hi! I'm Nicola!",
+        "slide": {
+            "1": {
+                "command-title": "$ cat",
+                "title": "~/my-portfolio_1.txt",
+                "command-subtitle": "",
+                "subtitle": "Hello World! 1"
+            },
+            "2": {
+                "command-title": "$ cat",
+                "title": "~/my-portfolio_2.txt",
+                "command-subtitle": "",
+                "subtitle": "Hello World! 2"
+            },
+            "3": {
+                "command-title": "$ cat",
+                "title": "~/my-portfolio_3.txt",
+                "command-subtitle": "",
+                "subtitle": "Hello World! 3"
+            }
+        }
+    },
+    "sec" : {
+        "features": {
+            "title": "~/features",
+            "subtitle": "feautres SUBTITLE_EN",
+            "icon": "fa fa-gears fa-lg",
+            "description": "SEC_FEATURES_DESCRIPTION_EN",
+            "list": {
+                "1": {
+                    "title": "Project Mantainer",
+                    "subtitle": "Many projects hosted on Github",
+                    "icon": "fa fa-github fa-2x"
+                },
+                "2": {
+                    "title": "Physicist",
+                    "subtitle": "Master Degree in Physics of Complex Systems in Torino",
+                    "icon": "fa fa-rocket fa-2x"
+                },
+                "3": {
+                    "title": "Programmer",
+                    "subtitle": "Into programming: C++, Python, Javascript",
+                    "icon": "fa fa-terminal fa-2x"
+                }
+            }
+        },
+        "projects": {
+            "title": "~/projects",
+            "subtitle": "$ grep -r -a -i",
+            "icon": "fa fa-server fa-lg",
+            "description": "SEC PROJECTS_DESCRIPTION EN"},
+        "myself": {
+            "title": "SEC MYSELF TITLE EN",
+            "subtitle": "SEC MYSELF SUBTITLE EN",
+            "icon": "fa fa-compass fa-lg",
+            "description": "This is my personal portfolio. this page was written entirely by myself, with free software libraries or open source libraries. "},
+        "facts": {
+            "title": "SEC FACTS TITLE EN",
+            "subtitle": "SEC FACTS SUBTITLE EN",
+            "icon": "fa fa-pie-chart fa-lg",
+            "description": "SEC FACTS DESCRIPTION EN",
+            "list": {
+                "1": {
+                    "icon": "fa fa-book fa-3x",
+                    "title" : "Hours spent studying",
+                    "description": "",
+                    "from": 1,
+                    "to": 100
+                },
+                "2": {
+                    "icon": "fa fa-code fa-3x",
+                    "title" : "Lines of codes written",
+                    "description": "",
+                    "from": "1",
+                    "to": "1540293"
+                },
+                "3": {
+                    "icon": "fa fa-comments-o fa-3x",
+                    "title" : "Questions on stackoverflow",
+                    "description": "",
+                    "from": "1",
+                    "to": "1000"
+                },
+                "4": {
+                    "icon": "fa fa-gnupg fa-3x",
+                    "title" : "Hours spent encrypting stuff",
+                    "description": "",
+                    "from": "1",
+                    "to": "1000"
+                }
+            }
+        },
+        "about": {
+            "title": "SEC ABOUT TITLE EN",
+            "subtitle": "SEC ABOUT SUBTITLE EN",
+            "icon": "fa fa-rocket fa-lg",
+            "description": "SEC_ABOUT_DESCRIPTION_EN"},
+        "contact": {
+            "title": "SEC CONTACT TITLE EN",
+            "subtitle": "SEC CONTACT SUBTITLE EN",
+            "icon": "fa fa-envelope-o fa-lg",
+            "description": "SEC_CONTACT_DESCRIPTION_EN",
+            "table": {
+                "head": {
+                    "icon": "fa fa-globe fa-lg",
+                    "user": "USER_EN",
+                    "description": "DESCRIPTION_EN"
+                },
+                "mail-outlook": {
+                    "icon": "fa fa-envelope fa-lg",
+                    "user": "ti.kooltuo@alles.alocin",
+                    "description": "Outlook Mail",
+                    "href": "mailto:nicola.sella@example.spam",
+                    "email": "outlook.it"
+                },
+                "mail-disroot": {
+                    "icon": "fa fa-envelope fa-lg",
+                    "user": "gro.toorsid@alles.alocin",
+                    "description": "Disroot Mail",
+                    "href": "mailto:nicola.sella@example.spam",
+                    "email": "disroot.org"
+                },
+                "github": {
+                    "icon": "fa fa-github fa-lg",
+                    "user": "sonkni",
+                    "description": "Github Main Account",
+                    "href": "https://github.com/inknos"
+                },
+                "mastodon": {
+                    "icon": "fa fa-mastodon fa-lg",
+                    "user": "gro.nodotssof@sonkni@",
+                    "description": "Mastodon Account",
+                    "href": "https://fosstodon.org/@inknos"
+                },
+                "telegram": {
+                    "icon": "fa fa-telegram fa-lg",
+                    "user": "sonkni",
+                    "description": "My Telegram Account",
+                    "href": "javascript:;"
+                },
+                "xmpp-disroot": {
+                    "icon": "fa fa-xmpp fa-lg",
+                    "user": "gro.toorsid@alles.alocin",
+                    "description": "XMPP Jabber on disroot",
+                    "href": "javascript:;"
+                }
+            }
+        }
     }
 }

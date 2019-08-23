@@ -44,7 +44,6 @@ a {
 
 .nav-item {
     display: table-row;
-
 }
 
 .fullscreen-height {
@@ -90,9 +89,20 @@ header.site-header {
 .carousel-title {
     padding-top: 5.4em;
 }
-.carousel-title-header {}
+.carousel-title-header {
+    display: inline;
+}
 
-.carousel-subtitle-header {}
+span.bash {
+    color: #ffc107;
+}
+
+.carousel-subtitle-header:before, .carousel-subtitle-header:after {
+    color: #ffc107;
+    content: " __ ";
+    position: relative;
+    bottom: 0.6em;
+}
 
 .feature-icon {
 
