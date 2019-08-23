@@ -34,7 +34,7 @@ a {
     color: #ffc107;
 }
 
-.show ul.navbar-nav{
+.show ul.navbar-nav, .collapsing ul.navbar-nav{
     height: 100vh;
     display: table;
     width: 100%;
