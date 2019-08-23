@@ -89,9 +89,7 @@ header.site-header {
 .carousel-title {
     padding-top: 5.4em;
 }
-.carousel-title-header {
-    display: inline;
-}
+.carousel-title-header {}
 
 span.bash {
     color: #ffc107;
