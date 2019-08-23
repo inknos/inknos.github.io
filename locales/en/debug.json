@@ -98,20 +98,20 @@
             }
         },
         "about": {
-            "title": "SEC_ABOUT_TITLE_EN",
-            "subtitle": "SEC_ABOUT_SUBTITLE_EN",
+            "title": "SEC ABOUT TITLE EN",
+            "subtitle": "SEC ABOUT SUBTITLE EN",
             "icon": "fa fa-rocket fa-lg",
             "description": "SEC_ABOUT_DESCRIPTION_EN"},
         "contact": {
-            "title": "SEC_CONTACT_TITLE_EN",
-            "subtitle": "SEC_CONTACT_SUBTITLE_EN",
+            "title": "SEC CONTACT TITLE EN",
+            "subtitle": "SEC CONTACT SUBTITLE EN",
             "icon": "fa fa-envelope-o fa-lg",
             "description": "SEC_CONTACT_DESCRIPTION_EN",
             "table": {
                 "head": {
                     "icon": "fa fa-globe fa-lg",
-                    "user": "SEC_CONTENT_TABLE_HEAD_USER_EN",
-                    "description": "SEC_CONTENT_TABLE_HEAD_DESCRIPTION_EN"
+                    "user": "USER_EN",
+                    "description": "DESCRIPTION_EN"
                 },
                 "mail-outlook": {
                     "icon": "fa fa-envelope fa-lg",
