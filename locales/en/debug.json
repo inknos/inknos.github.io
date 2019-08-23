@@ -3,12 +3,12 @@
     "title": "TITLE_EN",
     "copy": "Copyright &copy; inknos, Nicola Sella 2019",
     "nav": {
-        "features": "NAV_FEATURES_EN",
-        "projects": "NAV_PROJECTS_EN",
-        "myself": "NAV_MYSELF_EN",
-        "facts": "NAV_FACTS_EN",
-        "about": "NAV_ABOUT_EN",
-        "contact": "NAV_CONTACT_EN"
+        "features": "FEATURES_EN",
+        "projects": "PROJECTS_EN",
+        "myself": "MYSELF_EN",
+        "facts": "FACTS_EN",
+        "about": "ABOUT_EN",
+        "contact": "CONTACT_EN"
     },
     "carousel": {
         "title": "CAROUSEL TITLE EN",
