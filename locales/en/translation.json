@@ -116,8 +116,8 @@
             "table": {
                 "head": {
                     "icon": "fa fa-globe fa-lg",
-                    "user": "USER_EN",
-                    "description": "DESCRIPTION_EN"
+                    "user": "User",
+                    "description": "Description"
                 },
                 "mail-outlook": {
                     "icon": "fa fa-envelope fa-lg",
