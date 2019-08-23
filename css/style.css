@@ -17,6 +17,10 @@ html, body {
     color: #212529;
 }
 
+p {
+    width: 100%;
+}
+
 ::selection {
     background: #ffc107; /* WebKit/Blink Browsers */
     color: #212529;
@@ -211,10 +215,12 @@ a {
     padding: 1.5em 1.8em;
     width: 5.4em;}
 
-.icon-border-3x {    border: 1px solid #ddd;
-                     border-radius: 50%;
-                     padding: 2em 1.5em;
-                     width: 7.2em;}
+.icon-border-3x {
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    padding: 2em 1.5em;
+    width: 7.2em;
+}
 
 .black-section .table {
     color: #ddd;
@@ -252,4 +258,5 @@ a {
 code {
     color: #ffc107;
     background-color: #121212;
-    white-space: pre; }
+    white-space: pre;
+}
