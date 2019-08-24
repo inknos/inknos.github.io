@@ -25,9 +25,10 @@ p {
     background: #ffc107; /* WebKit/Blink Browsers */
     color: #212529;
 }
+
 ::-moz-selection {
     background: #ffc107; /* Gecko Browsers */
-    color: #2125259;
+    color: #212529;
 }
 
 a {
@@ -156,8 +157,6 @@ a {
     background-color: #121212;
 }
 
-
-
 .category-filter ul {
     list-style: none;
     padding: 0;
@@ -172,6 +171,7 @@ a {
     border-radius: 6px;
     color: #212529 !important;
 }
+
 .category-filter ul li a {
     padding: 5px 17px;
 }
@@ -187,18 +187,17 @@ a {
     border-bottom: 1px solid #ddd;
 }
 
-.filter-li:hover{
-    background-color: #ffc107;
-    color: #212559;
-}
-
 .filter-li-desc {
     display:inline-block;
     padding: 1em 0;
 }
+
 .filter-li-icon {
+    padding-bottom: 1em;
+}
+
+.filter-li-icon > div {
     display: inline-block;
-    float: left;
 }
 
 .icon-border-lg {
