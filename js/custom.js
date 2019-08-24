@@ -4,7 +4,7 @@ $(document).ready( function() {
 	  /*	Parallax
 	  /* ========================================================================= */
     $('#mainNav').parallax("50%", 0.1);
-    $('#facts').parallax("50%", 0.7);
+    $('#facts').parallax("50%", 0.7, "10%");
     $('#projects').parallax("50%", 0.7);
     $('#footer').parallax("50%", 0.1);
 

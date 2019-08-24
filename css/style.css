@@ -51,6 +51,10 @@ a {
     display: table-row;
 }
 
+.navbar-dark .navbar-nav .nav-link.active {
+    color: #ffc107;
+}
+
 .fullscreen-height {
     height: 100vh;
 }
@@ -100,12 +104,14 @@ span.bash {
     color: #ffc107;
 }
 
+/*
 .carousel-subtitle-header:before, .carousel-subtitle-header:after {
     color: #ffc107;
     content: " __ ";
     position: relative;
     bottom: 0.6em;
 }
+*/
 
 .feature-icon {
 
@@ -122,11 +128,13 @@ span.bash {
 
 section#facts {
     background-image: url('../img/parallax.jpg');
+    background-position: center bottom;
     color: #ddd;
 }
 
 .fact-item {
     text-align: center;
+    padding-bottom: 2rem;
 }
 
 .fact-icon {
@@ -160,6 +168,7 @@ a {
 .category-filter ul {
     list-style: none;
     padding: 0;
+    line-height: 2em;
 }
 
 .category-filter ul li {
