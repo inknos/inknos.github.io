@@ -60,7 +60,60 @@
             "title": "~/projects",
             "subtitle": "$ grep -r -a -i",
             "icon": "fa fa-server fa-lg",
-            "description": "SEC PROJECTS_DESCRIPTION EN"},
+            "description": "SEC PROJECTS_DESCRIPTION EN",
+            "list": {
+                "libreadvice": {
+                    "title": "libreadvice.org",
+                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt lorem non hendrerit. Aliquam erat volutpat",
+                    "subject": "filter-li web misc",
+                    "mastodon": "",
+                    "web": "https://libreadvice.org",
+                    "pixelfed": "https://pixelfed.social/libredvice"
+                },
+                "memory": {
+                    "title": "memory",
+                    "description": "Thesis project",
+                    "subject": "filter-li linux physics",
+                    "github": "https://github.com/BFSteam/memory"
+                },
+                "monteising": {
+                    "title": "monteising",
+                    "description": "Uneversity project written in C++ and Root.  that simulates the cooling of a N-dimensional ising lattice.",
+                    "subject": "filter-li physics",
+                    "github": "https://inknos.github.io/monteising"
+                },
+                "alifesgame": {
+                    "title": "a Life's Game",
+                    "description": "JS project Lotka Volterra",
+                    "subject": "filter-li web physics",
+                    "github": ""
+                },
+                "slapp": {
+                    "title": "",
+                    "description": "",
+                    "subject": "filter-li",
+                    "github": ""
+                },
+                "dotfiles": {
+                    "title": ".dotfiles",
+                    "description": "Archlinux dotfiles",
+                    "subject": "filter-li",
+                    "gitlab": ""
+                },
+                "liebling": {
+                    "title": "Contributor to eddiesigner/liebling theme for Ghost",
+                    "description": "Contributor to liebling theme",
+                    "subject": "filter-li web",
+                    "github": "https://github.com/eddiesigner/liebling"
+                },
+                "ddd": {
+                    "title": "Donor Database in Django",
+                    "description": "Donor databae management system written in django on heroku for crowdfunding project",
+                    "subject": "filter-li web misc",
+                    "github": ""
+                }
+            }
+        },
         "myself": {
             "title": "~/about --me",
             "subtitle": "",
@@ -70,35 +123,35 @@
             "title": "~/facts",
             "subtitle": "",
             "icon": "fa fa-pie-chart fa-lg",
-            "description": "",
+            "description": "filter-li web misc",
             "list": {
                 "1": {
                     "icon": "fa fa-book fa-3x",
                     "title" : "Hours spent studying",
                     "description": "",
                     "from": 1,
-                    "to": 100
+                    "to": 8346
                 },
                 "2": {
                     "icon": "fa fa-code fa-3x",
                     "title" : "Lines of codes written",
                     "description": "",
                     "from": 1,
-                    "to": "1540293"
+                    "to": "154029"
                 },
                 "3": {
                     "icon": "fa fa-comments-o fa-3x",
-                    "title" : "Questions on stackoverflow",
+                    "title" : "Prayers to stackoverflow",
                     "description": "",
                     "from": 1,
-                    "to": 1000
+                    "to": 497
                 },
                 "4": {
                     "icon": "fa fa-gnupg fa-3x",
                     "title" : "Hours spent encrypting stuff",
                     "description": "",
                     "from": 1,
-                    "to": 1000
+                    "to": 1337
                 }
             }
         },
@@ -106,7 +159,7 @@
             "title": "~/about --this-site",
             "subtitle": "",
             "icon": "fa fa-rocket fa-lg",
-            "description": "This is my personal portfolio. this page was written entirely by myself, with free software libraries or open source libraries. "},
+            "description": "This is my personal portfolio. This page was written entirely by myself, with free software libraries or open source libraries. This front page is not a curriculum but is meant to be a good introduction of myself and my skills."},
         "contact": {
             "title": "~/contact",
             "subtitle": "Personal info, mail, anything to contact me",
