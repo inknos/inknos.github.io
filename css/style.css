@@ -275,9 +275,6 @@ a {
     display: table;
 }
 
-.myself-title:before, .myself-title:after{
-    content: "-";
-}
 
 code {
     color: #ffc107;

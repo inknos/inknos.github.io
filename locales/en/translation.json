@@ -118,9 +118,12 @@
             "title": "~/about --me",
             "subtitle": "",
             "icon": "fa fa-compass fa-lg",
-            "description1": "I am a Physicist graduated in Physics of Complex Systems in Torino, Italy. I am specialized in AB Models applied to real Social Networks. I am also specialized in statystical and numericals problems  that require numerical approaches.",
-            "description2": "To me programming is a passion. I am developing my skills to learn ethical hacking and pentesting. I am a supporter of Free Software and privacy advocate!",
-            "description3": "I do not like to sit still. In my free time I play guitar, I go out hiking somewhere or I go to the gym. I love acting an I have been practicing from 10 years."
+            "title1": "I am a Physicist",
+            "title2": "For me coding is a passion",
+            "title3": "I do not like to sit still",
+            "description1": "Master Degree, Physics of Complex Systems in Torino, Italy. I am specialized in AB Models applied to real Social Networks. I am also specialized in statystical and numericals problems  that require numerical approaches.",
+            "description2": "I am developing my skills to learn ethical hacking and pentesting. I am a supporter of Free Software and privacy advocate!",
+            "description3": "In my free time I play guitar, I go out hiking somewhere or I go to the gym. I love acting an I have been practicing from 10 years."
         },
         "facts": {
             "title": "~/facts",
@@ -163,7 +166,7 @@
             "subtitle": "",
             "icon": "fa fa-rocket fa-lg",
             "description1": "This is my personal portfolio. This page was written entirely by myself, with free software libraries or open source libraries.",
-            "description2":"This front page is not a curriculum but is meant to be a good introduction of myself and my skills."},
+            "description2":"This front page is not a curriculum but is meant to be a good way to introducte myself and my skills."},
         "contact": {
             "title": "~/contact",
             "subtitle": "Personal info, mail, anything to contact me",
