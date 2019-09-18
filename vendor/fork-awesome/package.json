@@ -1,0 +1,77 @@
+{
+  "_args": [
+    [
+      "git+https://github.com/ForkAwesome/Fork-Awesome.git",
+      "/home/nik/inknos.github.io"
+    ]
+  ],
+  "_from": "git+https://github.com/ForkAwesome/Fork-Awesome.git",
+  "_id": "fork-awesome@git+https://github.com/ForkAwesome/Fork-Awesome.git#b0605a81632452818bf19c8fa97469da1206b52b",
+  "_inBundle": false,
+  "_integrity": "",
+  "_location": "/fork-awesome",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "git",
+    "raw": "git+https://github.com/ForkAwesome/Fork-Awesome.git",
+    "rawSpec": "git+https://github.com/ForkAwesome/Fork-Awesome.git",
+    "saveSpec": "git+https://github.com/ForkAwesome/Fork-Awesome.git",
+    "fetchSpec": "https://github.com/ForkAwesome/Fork-Awesome.git",
+    "gitCommittish": null
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "git+https://github.com/ForkAwesome/Fork-Awesome.git#b0605a81632452818bf19c8fa97469da1206b52b",
+  "_spec": "git+https://github.com/ForkAwesome/Fork-Awesome.git",
+  "_where": "/home/nik/inknos.github.io",
+  "author": {
+    "name": "Fork Awesome Community"
+  },
+  "bugs": {
+    "url": "http://github.com/ForkAwesome/Fork-Awesome/issues"
+  },
+  "dependencies": {},
+  "description": "A fork of the iconic font and CSS framework",
+  "devDependencies": {
+    "all-contributors-cli": "^6.1.1",
+    "less": "^2.7.3",
+    "less-plugin-clean-css": "^1.5.1",
+    "svgo": "^1.1.1"
+  },
+  "engines": {
+    "node": ">=0.10.3"
+  },
+  "homepage": "https://forkawesome.github.io/Fork-Awesome",
+  "jsdelivr": "css/fork-awesome.min.css",
+  "keywords": [
+    "font",
+    "awesome",
+    "forkawesome",
+    "fontawesome",
+    "icon",
+    "bootstrap"
+  ],
+  "license": "(OFL-1.1 AND MIT)",
+  "main": [
+    "css/fork-awesome.min.css",
+    "fonts/forkawesome-webfont.eot",
+    "fonts/forkawesome-webfont.svg",
+    "fonts/forkawesome-webfont.ttf",
+    "fonts/forkawesome-webfont.woff",
+    "fonts/forkawesome-webfont.woff2"
+  ],
+  "name": "fork-awesome",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ForkAwesome/Fork-Awesome.git"
+  },
+  "scripts": {
+    "build": "bundle exec jekyll build",
+    "contributors:add": "all-contributors add",
+    "contributors:generate": "all-contributors generate",
+    "dev": "bundle exec jekyll serve -w"
+  },
+  "style": "css/fork-awesome.css",
+  "version": "1.1.7"
+}
