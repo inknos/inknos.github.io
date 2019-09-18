@@ -175,7 +175,7 @@ a {
     display: inline-block;
 }
 
-.category-filter ul li a:hover, .category-filter ul li a:hover, .category-filter ul li a.active {
+.category-filter ul li a:hover, .category-filter ul li a:hover, .category-filter ul li a:active {
     background-color: #ffc107;
     border-radius: 6px;
     color: #212529 !important;
@@ -283,3 +283,10 @@ code {
     padding: 0.5em 2em;
 }
 
+.small-command {
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+.command {
+    color: #ffc107;
+}
