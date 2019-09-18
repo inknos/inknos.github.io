@@ -60,6 +60,18 @@ $( window ).on( "load", function() {
     });
 
     /* ========================================================================= */
+	  /*	View Myself
+	      /* ========================================================================= */
+    $( 'h3#myself-title-1' ).click( function() {
+        $( 'p#myself-description-1' ).slideToggle();
+    });
+    $( 'h3#myself-title-2' ).click( function() {
+       $( 'p#myself-description-2' ).slideToggle();
+    });
+    $( 'h3#myself-title-3' ).click( function() {
+       $( 'p#myself-description-3' ).slideToggle();
+    });
+    /* ========================================================================= */
 	  /*	Timer count
 	      /* ========================================================================= */
     $('.timer').countTo();

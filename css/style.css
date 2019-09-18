@@ -264,9 +264,25 @@ a {
     display: none;
 }
 
+.myself-description{
+    display: none;
+}
+
+.myself-title{
+    background-color: #ffc107;
+    border-radius: 6px;
+    padding: 5px 17px;
+    display: table;
+}
+
+.myself-title:before, .myself-title:after{
+    content: "-";
+}
+
 code {
     color: #ffc107;
     background-color: #121212;
     white-space: pre;
-    padding: 1em 2em;
+    padding: 0.5em 2em;
 }
+

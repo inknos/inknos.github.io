@@ -16,19 +16,19 @@
                 "command-title": "$ cat",
                 "title": "~/my-portfolio_1.txt",
                 "command-subtitle": "",
-                "subtitle": "Hello World! 1"
+                "subtitle": "Hi! I am Nicola and I am an Italian Physicist..."
             },
             "2": {
                 "command-title": "$ cat",
                 "title": "~/my-portfolio_2.txt",
                 "command-subtitle": "",
-                "subtitle": "Hello World! 2"
+                "subtitle": "...and a coder!"
             },
             "3": {
                 "command-title": "$ cat",
                 "title": "~/my-portfolio_3.txt",
                 "command-subtitle": "",
-                "subtitle": "Hello World! 3"
+                "subtitle": "But wait! There is more of it!"
             }
         }
     },
@@ -64,7 +64,7 @@
             "list": {
                 "libreadvice": {
                     "title": "libreadvice.org",
-                    "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. In bibendum tincidunt lorem non hendrerit. Aliquam erat volutpat",
+                    "description": "Blogging website hosted on Ghost that promotes and invites users to contribuite to free software and fight against big data thefts of nowadays. Libreadvice helps users providing guides and strategies to avoid privacy issues coused by proprietary software.",
                     "subject": "filter-li web misc",
                     "mastodon": "",
                     "web": "https://libreadvice.org",
@@ -118,7 +118,10 @@
             "title": "~/about --me",
             "subtitle": "",
             "icon": "fa fa-compass fa-lg",
-            "description": "This is my personal portfolio. this page was written entirely by myself, with free software libraries or open source libraries. "},
+            "description1": "I am a Physicist graduated in Physics of Complex Systems in Torino, Italy. I am specialized in AB Models applied to real Social Networks. I am also specialized in statystical and numericals problems  that require numerical approaches.",
+            "description2": "To me programming is a passion. I am developing my skills to learn ethical hacking and pentesting. I am a supporter of Free Software and privacy advocate!",
+            "description3": "I do not like to sit still. In my free time I play guitar, I go out hiking somewhere or I go to the gym. I love acting an I have been practicing from 10 years."
+        },
         "facts": {
             "title": "~/facts",
             "subtitle": "",
@@ -159,7 +162,8 @@
             "title": "~/about --this-site",
             "subtitle": "",
             "icon": "fa fa-rocket fa-lg",
-            "description": "This is my personal portfolio. This page was written entirely by myself, with free software libraries or open source libraries. This front page is not a curriculum but is meant to be a good introduction of myself and my skills."},
+            "description1": "This is my personal portfolio. This page was written entirely by myself, with free software libraries or open source libraries.",
+            "description2":"This front page is not a curriculum but is meant to be a good introduction of myself and my skills."},
         "contact": {
             "title": "~/contact",
             "subtitle": "Personal info, mail, anything to contact me",
