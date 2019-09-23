@@ -64,7 +64,7 @@
             "list": {
                 "libreadvice": {
                     "title": "libreadvice.org",
-                    "description": "Blogging website hosted on Ghost that promotes and invites users to contribuite to free software and fight against big data thefts of nowadays. Libreadvice helps users providing guides and strategies to avoid privacy issues coused by proprietary software.",
+                    "description": "Blogging website based on Ghost that promotes and invites users to contribuite to free software and to fight against data and privacy thefts. Libreadvice is aimed to help a community providing guides and strategies to avoid privacy issues coused, mostly, by proprietary software.",
                     "subject": "filter-li web misc",
                     "mastodon": "",
                     "web": "https://libreadvice.org",
@@ -72,19 +72,19 @@
                 },
                 "memory": {
                     "title": "memory",
-                    "description": "Thesis project",
+                    "description": "This is the source code of my thesis project. Memory implements a module for the software SLAPP, an agent based simulation platform. My thesis is available as well. Email me.",
                     "subject": "filter-li linux physics",
                     "github": "https://github.com/BFSteam/memory"
                 },
                 "monteising": {
                     "title": "monteising",
-                    "description": "Uneversity project written in C++ and Root.  that simulates the cooling of a N-dimensional ising lattice.",
+                    "description": "University project in C++ and CERN/Root. This module simulates the cooling of a N-dimensional ising lattice using intensive Monte Carlo Random Extractions.",
                     "subject": "filter-li physics",
                     "github": "https://inknos.github.io/monteising"
                 },
                 "alifesgame": {
                     "title": "a Life's Game",
-                    "description": "JS project Lotka Volterra",
+                    "description": "My first project in Javascript. This web page simulates a Lotka-Volterra or Predator-Prey dynamics using agent based models.",
                     "subject": "filter-li web physics",
                     "github": ""
                 },
@@ -96,7 +96,7 @@
                 },
                 "dotfiles": {
                     "title": ".dotfiles",
-                    "description": "Archlinux dotfiles",
+                    "description": "Since I started programming I decided to write my personal dotfiles. This is my full customization of Arch Linux + i3gaps. Enjoy!",
                     "subject": "filter-li",
                     "gitlab": ""
                 },
@@ -108,7 +108,7 @@
                 },
                 "ddd": {
                     "title": "Donor Database in Django",
-                    "description": "Donor databae management system written in django on heroku for crowdfunding project",
+                    "description": "Donor Database management system written in Django framework for heroku. This is one of my last project that may help crowdfunding project listing and organizing their events, institutions and donors.",
                     "subject": "filter-li web misc",
                     "github": ""
                 }
@@ -121,8 +121,8 @@
             "title1": "I am a Physicist",
             "title2": "Coding is a passion",
             "title3": "I cannot keep still",
-            "description1": "Master Degree, Physics of Complex Systems in Torino, Italy. I am specialized in AB Models applied to real Social Networks. I am also specialized in statystical and numericals problems  that require numerical approaches.",
-            "description2": "I am developing my skills to learn ethical hacking and pentesting. I am a supporter of Free Software and privacy advocate!",
+            "description1": "Master Degree, Physics of Complex Systems, Torino, Italy. I am specialized in AB Models applied to real Social Networks. I am strong in statystical and numericals approaches to problems.",
+            "description2": "Currently I am studying to learn ethical hacking and pentesting. I am a supporter of Free Software and privacy advocate!",
             "description3": "In my free time I play guitar, I go out hiking somewhere or I go to the gym. I love acting an I have been practicing from 10 years."
         },
         "facts": {
@@ -166,12 +166,16 @@
             "subtitle": "",
             "icon": "fa fa-rocket fa-lg",
             "description1": "This is my personal portfolio. This page was written entirely by myself, with free software libraries or open source libraries.",
-            "description2": "This page was written with the intent of"},
+            "description2": ""},
         "contact": {
             "title": "~/contact",
             "subtitle": "$MAIL $INFO $SOCIAL $CONTACTS",
             "icon": "fa fa-envelope-o fa-lg",
             "description": "",
+            "license": "This website is released under the GNU General Public License (GPL) version 3 or GPLv3",
+            "license-url": "http://www.gnu.org/licenses/gpl-3.0.html",
+            "javascript": "If you are interested in the licenses used for this project consult the JavaScript license information table",
+            "javascript-url": "",
             "table": {
                 "head": {
                     "icon": "fa fa-globe fa-lg",
