@@ -64,7 +64,7 @@
             "list": {
                 "libreadvice": {
                     "title": "libreadvice.org",
-                    "description": "Blogging website based on Ghost that promotes and invites users to contribuite to free software and to fight against data and privacy thefts. Libreadvice is aimed to help a community providing guides and strategies to avoid privacy issues coused, mostly, by proprietary software.",
+                    "description": "Blogging website based on Ghost that promotes and invites users to contribuite to free software and to fight against data and privacy theft. Libreadvice is aimed to help a community providing guides and strategies to avoid privacy issues caused, mostly, by proprietary software.",
                     "subject": "filter-li web misc",
                     "mastodon": "",
                     "web": "https://libreadvice.org",
@@ -123,7 +123,7 @@
             "title3": "I cannot keep still",
             "description1": "Master Degree, Physics of Complex Systems, Torino, Italy. I am specialized in AB Models applied to real Social Networks. I am strong in statystical and numericals approaches to problems.",
             "description2": "Currently I am studying to learn ethical hacking and pentesting. I am a supporter of Free Software and privacy advocate!",
-            "description3": "In my free time I play guitar, I go out hiking somewhere or I go to the gym. I love acting an I have been practicing from 10 years."
+            "description3": "In my free time I play guitar, I go out hiking somewhere or I go to the gym. I love acting an I have been practicing for 10 years."
         },
         "facts": {
             "title": "~/facts",
