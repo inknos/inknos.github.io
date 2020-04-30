@@ -21,7 +21,7 @@
     "fork-awesome": "git+https://github.com/ForkAwesome/Fork-Awesome.git",
     "i18next": "^17.0.11",
     "i18next-xhr-backend": "^3.1.2",
-    "jquery": "^3.4.1",
+    "jquery": "^3.5.0",
     "jquery-countto": "git+https://github.com/mhuggins/jquery-countTo.git",
     "jquery-i18next": "^1.2.1",
     "jquery-parallax": "^1.0.1",
