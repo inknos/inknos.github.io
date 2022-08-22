@@ -15,7 +15,7 @@ paginate = 5
   themeColor = "blue"
 
   # if you set this to 0, only submenu trigger will be visible
-  showMenuItems = 2
+  # showMenuItems = 2
 
   # show selector to switch language
   showLanguageSelector = false
@@ -24,7 +24,7 @@ paginate = 5
   fullWidthTheme = false
 
   # center theme with default width
-  centerTheme = true
+  centerTheme = false
 
   # if your resource directory contains an image called `cover.(jpg|png|webp)`,
   # then the file will be used as a cover automatically.
@@ -45,7 +45,7 @@ paginate = 5
   # oneHeadingSize = true # default
 
   # whether to show a page's estimated reading time
-  # readingTime = false # default
+  readingTime = true # default
 
   # whether to show a table of contents
   # can be overridden in a page's front-matter
