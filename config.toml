@@ -1,4 +1,4 @@
-baseURL = "http://inknos.github.io"
+baseURL = "https://inknos.github.io"
 languageCode = "en-us"
 title = "INKNOS' BLOG"
 theme = "terminal"
