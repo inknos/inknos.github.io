@@ -4,7 +4,6 @@ date: 2022-08-08T16:26:29+02:00
 tags: ["git", "linux", "github", "dnf", "tips"]
 draft: false
 ---
-# How to Cut Git History the Clean Way
 
 ## My use case
 Happened to my team and I to work on a repository that, as many others have, has a `main` and `devel` branch.
@@ -17,7 +16,7 @@ binaries that were in the history of the old `dnf`.
 ## Find where to cut
 
 Firs of all, you should find out where to cut i.e. the commit hash. I will use my hash in this example.
-[^cut][^how=to=truncate]
+[^cut][^how-to-truncate]
 ```
 CUT_HERE=6d812e72f7c1cf979de1ad404ac5a9a460ade4de
 ```
