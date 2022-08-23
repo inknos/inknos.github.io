@@ -3,3 +3,40 @@ baseURL = "https://inknos.github.io"
 languageCode = "en-us"
 title = "INKNOS' BLOG"
 theme = "archie"
+copyright = "Attribution 4.0 International (CC BY 4.0)"
+
+pygmentsstyle = "gruvbox"
+pygmentscodefences = true
+pygmentscodefencesguesssyntax = true
+
+paginate=3 # articles per page
+
+[params]
+	mode="dark" # color-mode → light,dark,toggle or auto
+	useCDN=false # don't use CDNs for fonts and icons, instead serve them locally.
+	subtitle = "My snippets and thoughts"
+
+[[params.social]]
+name = "GitHub"
+icon = "github"
+url = "https://github.com/inknos"
+
+[[menu.main]]
+name = "Home"
+url = "/"
+weight = 1
+
+[[menu.main]]
+name = "All posts"
+url = "/posts"
+weight = 2
+
+[[menu.main]]
+name = "About"
+url = "/about"
+weight = 3
+
+[[menu.main]]
+name = "Tags"
+url = "/tags"
+weight = 4
