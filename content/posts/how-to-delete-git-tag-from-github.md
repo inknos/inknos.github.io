@@ -2,6 +2,7 @@
 title: "How to Delete Git Tag From Github"
 date: 2022-08-22T19:07:35+02:00
 draft: false
+tags: ["git", "linux", "commandline", "snippets"]
 ---
 open up a terminal window and navigate to your local GitHub repository.
 
