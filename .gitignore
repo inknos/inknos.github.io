@@ -93,3 +93,6 @@ typings/
 
 # public dir
 public/
+
+# hugo lock
+.hugo_build.lock
