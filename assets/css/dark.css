@@ -1,0 +1,185 @@
+html {
+  background-color: var(--darkbgcolor);
+}
+body {
+  color: var(--darktextcolor);
+  background-color: var(--darkbgcolor);
+}
+
+::-moz-selection {
+  background: var(--gruvboxlightred);
+  color: var(--gruvboxdarkfg);
+  text-shadow: none;
+}
+
+::selection {
+  background: var(--gruvboxlightred);
+  color: var(--gruvboxdarkfg);
+  text-shadow: none;
+}
+
+hr {
+  border-top: 3px dotted var(--gruvboxblue);
+}
+code {
+  background-color: var(--gruvboxlightblue);
+  color: var(--gruvboxdarkfg);
+  text-decoration: bold;
+  padding: 0.1em 0.2em;
+}
+pre {
+  background-color: var(--gruvboxdarkbg);
+  line-height: 1.4;
+  overflow-x: auto;
+  padding: 1em;
+}
+blockquote {
+  border-color: var(--gruvboxblue);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--darktextcolor);
+}
+h1::before {
+  color: var(--maincolor);
+  content: "# ";
+}
+h2::before {
+  color: var(--maincolor);
+  content: "## ";
+}
+h3::before {
+  color: var(--maincolor);
+  content: "### ";
+}
+h4::before {
+  color: var(--maincolor);
+  content: "#### ";
+}
+h5::before {
+  color: var(--maincolor);
+  content: "##### ";
+}
+h6::before {
+  color: var(--maincolor);
+  content: "###### ";
+}
+
+a {
+  border-bottom: 3px solid var(--maincolor);
+  color: inherit;
+}
+a:hover {
+  background-color: var(--maincolor);
+  color: var(--codebgcolor);
+}
+
+.site-description a {
+  color: var(--gruvboxlightgray);
+}
+.site-description a:hover {
+  color: var(--codebgcolor);
+}
+
+.tags a {
+  border-bottom: 3px solid var(--maincolor);
+}
+.tags a:hover {
+  background-color: var(--maincolor);
+  color: var(--codebgcolor);
+}
+
+.site-title a {
+  color: var(--gruvboxdarkfg);
+  text-decoration: none !important;
+}
+
+.header nav,
+.footer {
+  border-color: var(--darktextcolor);
+}
+
+.highlight {
+  background-color: var(--gruvboxdarkbg0_h);
+  color: var(--gruvboxdarkfg);
+}
+
+.highlight pre code[class*="language-"]::before {
+  background: var(--gruvboxdarkbg0_h);
+  color: var(--gruvboxdarkfg);
+  border-radius: 0 0 0.25rem 0.25rem;
+  font-size: 12px;
+  letter-spacing: 0.025rem;
+  padding: 0.1rem 0.5rem;
+  position: absolute;
+  right: 1rem;
+  text-align: right;
+  text-transform: uppercase;
+  top: 0;
+}
+
+.soc:hover {
+  color: var(--codebgcolor);
+}
+.draft-label {
+  color: var(--darkbgcolor);
+  background-color: var(--gruvboxblue);
+}
+.highlight pre code[class=language-javaScript]::before,
+.highlight pre code[class="language-js"]::before {
+  content: "js";
+  background: var(--gruvboxyellow);
+  color: var(--gruvboxdarkbg);
+}
+.highlight pre code[class*='language-yml']::before,
+.highlight pre code[class*='language-yaml']::before {
+  content: 'yaml';
+  background: var(--gruvboxaqua);
+  color: var(--gruvboxdarkbg);
+}
+.highlight pre code[class*='language-shell']::before,
+.highlight pre code[class*='language-bash']::before,
+.highlight pre code[class*='language-sh']::before {
+  content: 'shell';
+  background: var(--gruvboxgreen);
+  color:var(--gruvboxdarkbg);
+}
+.highlight pre code[class*='language-json']::before{
+  content: 'json';
+  background: var(--gruvboxaqua);
+   color: var(--gruvboxdarkbg);
+}
+.highlight pre code[class*='language-python']::before,
+.highlight pre code[class*='language-py']::before {
+  content: 'py';
+  background: var(--gruvboxblue);
+  color: var(--gruvboxdarkbg) ;
+}
+.highlight pre code[class*='language-css']::before{
+  content: 'css';
+  background: var(--gruvboxlightblue);
+  color: var(--gruvboxdarkbg) ;
+}
+.highlight pre code[class*='language-go']::before{
+  content: 'Go';
+  background: var(--gruvboxblue);
+  color: var(--gruvboxdarkbg) ;
+}
+.highlight pre code[class*='language-md']::before,
+.highlight pre code[class*='language-md']::before{
+  content: 'Markdown';
+  background: var(--gruvboxaqua);
+  color: var(--gruvboxdarkbg) ;
+}
+.highlight pre code[class*='language-c++']::before,
+.highlight pre code[class*='language-cpp']::before{
+content: 'C++';
+background: var(--gruvboxred);
+color: var(--gruvboxdarkbg) ;
+}
+
