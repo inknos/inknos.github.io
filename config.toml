@@ -1,7 +1,7 @@
 #baseURL = "https://inknos.github.io"
 baseURL = "https://inknos.github.io"
 languageCode = "en-us"
-title = "There is a Cat in the Server Box!"
+title = "Cat in the Server Box!"
 theme = "archie"
 copyright = "Attribution 4.0 International (CC BY 4.0)"
 staticDir = [ "static" ]
